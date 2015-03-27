@@ -7,7 +7,7 @@ def fread(fname):
 
 setup(
     name='djangopypi2',
-    version=fread('VERSION').strip(),
+    version=fread('VERSION').strip() + '+gag',
     description="A Django application that emulates the Python Package Index.",
     long_description=fread("README.rst"),
     keywords='django pypi packaging index',
